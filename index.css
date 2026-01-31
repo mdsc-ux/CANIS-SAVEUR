@@ -1,0 +1,41 @@
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+        
+        body { 
+            font-family: 'Quicksand', sans-serif; 
+            background-color: #fdf8f8;
+        }
+
+        /* Paleta Rosa Calmo Customizada */
+        .bg-rose-calm { background-color: #f2d5d5; }
+        .bg-rose-deep { background-color: #e5b7b7; }
+        .text-rose-dark { color: #8a5e5e; }
+        .btn-whatsapp { 
+            background-color: #e5b7b7; 
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background-color: #d4a3a3;
+            transform: translateY(-2px);
+        }
+        .card-soft {
+            background: #ffffff;
+            border: 1px solid #f2e1e1;
+        }
+    
+
+   #img{
+    width: 600px;
+    height: 400px;
+   }
+
+
+   /* Esconde a barra de rolagem mas permite o scroll */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+ 
